@@ -1,0 +1,22 @@
+# Dependencies / build output
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Local environment & secrets
+.env
+.env.*
+!.env.example
+
+# Editor / OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*

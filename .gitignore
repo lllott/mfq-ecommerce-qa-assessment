@@ -1,0 +1,27 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# ---- Node / 前端构建产物 ----
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# ---- 本机配置与密钥 ----
+.env
+.env.*
+!.env.example
+
+# ---- 编辑器 / 操作系统 ----
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ---- 日志 ----
+*.log
+npm-debug.log*

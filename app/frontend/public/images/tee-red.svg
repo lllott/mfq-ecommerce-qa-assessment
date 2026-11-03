@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">红色云感纯棉圆领 T 恤</title>
+  <desc id="desc">砖红色圆领短袖 T 恤的产品插画，暖米色背景。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3ece1" />
+      <stop offset="0.58" stop-color="#e7ddd0" />
+      <stop offset="1" stop-color="#d5c7b8" />
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="0.9">
+      <stop offset="0" stop-color="#c75d51" />
+      <stop offset="0.5" stop-color="#b94a3f" />
+      <stop offset="1" stop-color="#96382f" />
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="34" stdDeviation="32" flood-color="#5e493f" flood-opacity="0.26" />
+    </filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" seed="5" stitchTiles="stitch" />
+      <feColorMatrix type="saturate" values="0" />
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.08" />
+      </feComponentTransfer>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="1500" fill="url(#bg)" />
+  <circle cx="925" cy="320" r="254" fill="#fbf6ed" opacity="0.62" />
+  <path d="M0 1210C240 1120 400 1178 610 1240C820 1302 1010 1270 1200 1180V1500H0Z" fill="#c8b8a5" opacity="0.28" />
+
+  <g filter="url(#shadow)">
+    <path d="M445 382L548 326C568 374 632 374 652 326L755 382L914 522L824 650L716 587L738 1122C668 1156 532 1156 462 1122L484 587L376 650L286 522Z" fill="url(#shirt)" />
+    <path d="M548 326C568 374 632 374 652 326C633 301 567 301 548 326Z" fill="#873129" />
+    <path d="M548 326C567 350 633 350 652 326" fill="none" stroke="#d98e84" stroke-width="5" opacity="0.8" />
+    <path d="M462 1122C532 1156 668 1156 738 1122" fill="none" stroke="#873129" stroke-width="3" opacity="0.55" />
+
+    <path d="M445 382C495 411 520 468 526 535C490 520 444 508 376 650Z" fill="#d77a6d" opacity="0.28" />
+    <path d="M755 382C705 411 680 468 674 535C710 520 756 508 824 650Z" fill="#d77a6d" opacity="0.28" />
+    <path d="M456 590C455 770 455 940 462 1118" fill="none" stroke="#8d332a" stroke-width="2" opacity="0.32" />
+    <path d="M744 590C745 770 745 940 738 1118" fill="none" stroke="#8d332a" stroke-width="2" opacity="0.32" />
+    <path d="M484 587L376 650" fill="none" stroke="#812f27" stroke-width="2" opacity="0.45" />
+    <path d="M716 587L824 650" fill="none" stroke="#812f27" stroke-width="2" opacity="0.45" />
+    <path d="M435 603C445 655 447 700 440 742" fill="none" stroke="#e1968c" stroke-width="2" opacity="0.28" />
+    <path d="M765 603C755 655 753 700 760 742" fill="none" stroke="#e1968c" stroke-width="2" opacity="0.28" />
+  </g>
+
+  <text x="72" y="104" fill="#76685a" font-family="Arial, sans-serif" font-size="19" letter-spacing="5">STILL / COTTON ESSENTIALS</text>
+  <text x="72" y="1434" fill="#76685a" font-family="Arial, sans-serif" font-size="15" letter-spacing="4">RED — 001</text>
+  <text x="1128" y="1434" fill="#76685a" font-family="Arial, sans-serif" font-size="15" letter-spacing="4" text-anchor="end">260 GSM</text>
+  <rect width="1200" height="1500" filter="url(#grain)" opacity="0.3" />
+</svg>
